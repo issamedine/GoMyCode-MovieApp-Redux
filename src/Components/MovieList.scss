@@ -1,0 +1,31 @@
+.movie-list {
+    display: flex;
+    margin: 2% 0;
+}
+.movie-item img {
+    width: 100%;
+}
+.movie-desc {
+    text-align: center;
+    margin-top: 15px;
+}
+.movie-btn {
+    display: flex;
+    justify-content: space-evenly;
+    button:nth-child(1){
+        width: 78px;
+    }
+}
+.add-movie {
+    border: 1px solid #dddddd;
+    height: 300px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    .fas.fa-plus {
+        color: #cccccc;
+        font-size: 90px;
+    }
+}
