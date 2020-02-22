@@ -13,13 +13,18 @@ class SearchBar extends Component {
   render() {
     return (
       <div className="search-bar">
+        
         <input
+          className="shadow-drop-2-center"
           type="text"
           placeholder="search movie"
           onChange={e => this.props.searchInput(e.target.value)}
         />
         {/* <span>★★★☆☆</span> */}
-        <Star />
+        <p className="d-flex">
+          <span>Search Star : </span> &nbsp;  &nbsp;
+          <Star />
+        </p>
       </div>
     );
   }

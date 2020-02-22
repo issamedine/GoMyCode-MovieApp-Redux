@@ -12,14 +12,11 @@ class App extends Component {
   render() {
     return (
       <div className="container">
+        
         <SearchBar />
-        {/* <MovieList /> */}
+
         <Route exact path="/" component={(SearchBar, MovieList)} />
-        {/* <Route
-          exact
-          path="/description/:id"
-          render={props => <Description {...props} />}
-        /> */}
+        
         <Route path="/description/:id" component={Description} />
       </div>
     );

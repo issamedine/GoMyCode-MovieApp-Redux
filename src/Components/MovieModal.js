@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import { add } from "../Redux/Actions";
 import { edit } from "../Redux/Actions";
 import { render } from "@testing-library/react";
+import './MovieModal.scss';
 
 class MovieModal extends Component {
   constructor(props) {
@@ -73,7 +74,7 @@ class MovieModal extends Component {
       <div>
         <div>
           {this.props.isEdit ? (
-            <button onClick={this.handleShow}>Edit</button>
+            <button className="btn-add-rem" onClick={this.handleShow}>Edit</button>
           ) : (
             <i class="fas fa-plus" onClick={this.handleShow}></i>
           )}

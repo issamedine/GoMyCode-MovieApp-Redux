@@ -11,31 +11,31 @@ const initialState = {
   movieList: [
     {
       id: 1,
-      title: "aa",
-      annee: "2000",
+      title: "Space Opera",
+      annee: "2018",
       rating: 5,
-      image: "https://fr.web.img2.acsta.net/pictures/19/03/13/15/49/5836891.jpg"
+      image: "https://i2.wp.com/lageekosophe.com/wp-content/uploads/2018/01/Science-fiction-space-opera.png?fit=1200%2C600&ssl=1"
     },
     {
       id: 2,
-      title: "bb",
-      annee: "2000",
+      title: "Critique de Captive State",
+      annee: "2019",
       rating: 5,
-      image: "https://fr.web.img2.acsta.net/pictures/19/03/13/15/49/5836891.jpg"
+      image: "https://p2.cineserie.com/www.cineserie.com/wp-content/uploads/2019/04/captive-state-le-film-de-science-fiction-intelligent-de-la-semaine-1.png?fit=1200%2C600&quality=100&ssl=1&ver=1"
     },
     {
       id: 3,
-      title: "cc",
-      annee: "2000",
+      title: "Rogue One's Gareth Edwards",
+      annee: "2019",
       rating: 2,
-      image: "https://fr.web.img2.acsta.net/pictures/19/03/13/15/49/5836891.jpg"
+      image: "https://img.cinemablend.com/filter:scale/quill/c/a/3/0/1/9/ca30190074ee441223cad4977da96e32a46826e1.jpg?fw=1200"
     },
     {
       id: 4,
-      title: "dd",
-      annee: "2000",
+      title: "Timecop",
+      annee: "2019",
       rating: 5,
-      image: "https://fr.web.img2.acsta.net/pictures/19/03/13/15/49/5836891.jpg"
+      image: "https://cdn.sciencesensei.com/wp-content/uploads/2019/12/timecop.jpg"
     }
   ],
   filtredList: [],

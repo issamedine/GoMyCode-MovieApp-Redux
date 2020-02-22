@@ -25,21 +25,31 @@ class MovieList extends Component {
           {(!newList.length ? movieList : newList).map((el, key) => {
             return (
               <div className="col-xs-12 col-sm-12 col-md-3" key={key}>
-                <div className="movie-item">
+                <div className="movie-item slide-top">
                   <img src={el.image} alt="" width="250" />
                   <div className="movie-desc">
-                    <h4>{el.title}</h4>
-                    <p>{el.annee}</p>
+                    <h4 className="title-movie hover-element">{el.title}</h4>
+                    <p className="hover-element">{el.annee}</p>
                     <p>
                       <Star rating={el.rating} cmpMovieCard={true} />
                     </p>
                     <p>
-                      <Link to={`/description/${el.id}`}>Description</Link>
+                      <Link
+                        className="hover-element link-desc"
+                        to={`/description/${el.id}`}
+                      >
+                        Description
+                      </Link>
                     </p>
                     <p className="movie-btn">
                       {/* <button onClick={this.modalUpdate}>Edit</button> */}
                       <MovieModal isEdit={true} movie={el} />
-                      <button onClick={() => remove(el.id)}>Remove</button>
+                      <button
+                        className="btn-add-rem"
+                        onClick={() => remove(el.id)}
+                      >
+                        Remove
+                      </button>
                     </p>
                   </div>
                 </div>

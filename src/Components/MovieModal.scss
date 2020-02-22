@@ -1,0 +1,17 @@
+.btn-add-rem {
+    background-color: #253358;
+    border: none;
+    color: #ffffff;
+    border-radius: 2px;
+    padding: 6px 12px;
+    &:hover {
+        background-color: #475986;
+        transition: 1s all;
+    }
+}
+.modal-body input {
+    margin-bottom: 4px;
+    border: 1px solid #e0e0e0;
+    padding: 2px 8px;
+    border-radius: 3px;
+}
